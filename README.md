@@ -12,7 +12,7 @@ To see all options:
     
     ./userctl.py --help
 
-To create a user:
+To create a user and add a specific public key:
 
     ./userctl.py --create mario --hostname mushroom.kingdom.com --ssh-pub-key ~/.ssh/id_ed25519.pub
 
